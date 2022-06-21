@@ -1,0 +1,17 @@
+max_iter = 500000.0
+eval_interval = 2000
+start_train = 10000
+train_interval = 50
+buffer_size = 1000000.0
+fill_buffer = 20000
+truncate = 1000
+gamma = 0.99
+pi_lr = 0.0003
+q_lr = 0.0003
+polyak = 0.005
+alpha = 0.2
+hidden1 = 256
+hidden2 = 256
+batch_size = 128
+device = cuda
+render = False
